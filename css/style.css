@@ -1,6 +1,6 @@
 /* ===================================
-   RKS Tech & Sports Hub - Modern Design
-   Inspired by Reddit's Clean Interface
+   NextGenTechPlay.com - Modern SaaS Design
+   Professional Tech Startup Theme
    =================================== */
 
 /* Reset & Base Styles */
@@ -11,37 +11,69 @@
 }
 
 :root {
-    --primary-color: #FF4500;
-    --primary-hover: #ff5722;
-    --secondary-color: #0079D3;
-    --accent-color: #FFB000;
-    --dark-color: #1A1A1B;
+    /* Primary Purple/Blue Gradient */
+    --primary-color: #6366f1;
+    --primary-dark: #4f46e5;
+    --primary-light: #818cf8;
+    --secondary-color: #06b6d4;
+    --accent-purple: #8b5cf6;
+    --accent-pink: #ec4899;
+    
+    /* Neutral Colors */
+    --dark-color: #0f172a;
+    --gray-900: #1e293b;
+    --gray-800: #334155;
+    --gray-700: #475569;
+    --gray-600: #64748b;
+    --gray-300: #cbd5e1;
+    --gray-200: #e2e8f0;
+    --gray-100: #f1f5f9;
+    --gray-50: #f8fafc;
+    
+    /* Background & Cards */
+    --bg-color: #ffffff;
     --card-bg: #ffffff;
-    --bg-color: #DAE0E6;
-    --light-gray: #f6f7f8;
-    --text-color: #1c1c1c;
-    --text-secondary: #7c7c7c;
-    --border-color: #ccc;
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
-    --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.2);
-    --transition: all 0.2s ease;
-    --radius: 8px;
+    --section-bg: #f8fafc;
+    
+    /* Text Colors */
+    --text-color: #1e293b;
+    --text-secondary: #64748b;
+    --text-light: #94a3b8;
+    
+    /* Shadows - Modern & Soft */
+    --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.3);
+    
+    /* Effects */
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease;
+    --radius-sm: 8px;
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-full: 9999px;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    line-height: 1.5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 32px;
 }
 
 img {
@@ -51,20 +83,22 @@ img {
 }
 
 /* ===================================
-   Header & Navigation
+   Header & Navigation - Modern SaaS
    =================================== */
 
 header {
-    background: white;
-    box-shadow: var(--shadow-sm);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--gray-200);
+    transition: var(--transition);
 }
 
 .navbar {
-    padding: 0.75rem 0;
+    padding: 1rem 0;
 }
 
 .navbar .container {
@@ -74,12 +108,16 @@ header {
 }
 
 .logo h1 {
-    color: var(--primary-color);
-    font-size: 1.75rem;
-    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-purple) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.5rem;
+    font-weight: 800;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    letter-spacing: -0.5px;
 }
 
 .mobile-toggle {
@@ -89,42 +127,45 @@ header {
     font-size: 1.75rem;
     cursor: pointer;
     color: var(--text-color);
+    padding: 0.5rem;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 0.5rem;
+    gap: 0.25rem;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: var(--text-secondary);
-    font-weight: 600;
+    font-weight: 500;
     transition: var(--transition);
-    padding: 0.5rem 1rem;
-    border-radius: var(--radius);
-    font-size: 14px;
+    padding: 0.625rem 1.25rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.9375rem;
+    position: relative;
 }
 
 .nav-menu a:hover {
-    background: var(--light-gray);
-    color: var(--text-color);
+    background: var(--gray-100);
+    color: var(--primary-color);
 }
 
 .nav-menu a.active {
-    background: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
     color: white;
+    box-shadow: var(--shadow-sm);
 }
 
 /* ===================================
-   Hero Section
+   Hero Section - Modern SaaS
    =================================== */
 
 .hero {
-    background: linear-gradient(135deg, #FF4500 0%, #FF6B35 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
     color: white;
-    padding: 4rem 0;
+    padding: 6rem 0 7rem;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -133,12 +174,29 @@ header {
 .hero::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.4;
+    animation: gridMove 20s linear infinite;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
     left: 0;
     right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
-    opacity: 0.5;
+    height: 100px;
+    background: linear-gradient(to top, var(--bg-color), transparent);
+}
+
+@keyframes gridMove {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(50px, 50px); }
 }
 
 .hero .container {
@@ -147,17 +205,23 @@ header {
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
     font-weight: 800;
-    letter-spacing: -0.5px;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
+    font-size: 1.375rem;
+    margin-bottom: 2.5rem;
     opacity: 0.95;
     font-weight: 400;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
 }
 
 .cta-buttons {
@@ -168,44 +232,64 @@ header {
 }
 
 /* ===================================
-   Buttons
+   Buttons - Modern SaaS Style
    =================================== */
 
 .btn {
-    padding: 0.75rem 2rem;
-    border-radius: 9999px;
+    padding: 0.875rem 2.5rem;
+    border-radius: var(--radius-full);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
     transition: var(--transition);
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 1rem;
+    letter-spacing: -0.2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
 }
 
 .btn-primary {
     background: white;
     color: var(--primary-color);
+    box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.3);
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-hover);
-    background: var(--light-gray);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px 0 rgba(99, 102, 241, 0.4);
 }
 
 .btn-secondary {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: var(--primary-color);
-    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* ===================================
@@ -214,111 +298,154 @@ header {
 
 .ad-container {
     max-width: 728px;
-    margin: 2rem auto;
+    margin: 3rem auto;
     text-align: center;
     padding: 1rem;
 }
 
 .ad-placeholder {
-    background: white;
-    border: 2px dashed var(--border-color);
+    background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
+    border: 2px dashed var(--gray-300);
     padding: 2rem;
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     color: var(--text-secondary);
-    font-weight: 600;
-    box-shadow: var(--shadow-sm);
+    font-weight: 500;
+    box-shadow: var(--shadow-xs);
 }
 
 /* ===================================
-   Section Styles
+   Section Styles - Modern Layout
    =================================== */
 
 .featured-section,
 .videos-section,
 .blog-section {
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 .videos-section {
-    background: white;
+    background: var(--section-bg);
 }
 
 .section-title {
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2.5rem;
+    font-size: 2.75rem;
+    margin-bottom: 3.5rem;
     color: var(--dark-color);
     font-weight: 800;
-    letter-spacing: -0.5px;
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-purple));
+    border-radius: var(--radius-full);
 }
 
 /* ===================================
-   Content Grid - Modern Card Design
+   Content Grid - Modern SaaS Cards
    =================================== */
 
 .content-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2rem;
 }
 
 .content-card {
     background: var(--card-bg);
     padding: 0;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
     transition: var(--transition);
     text-align: left;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--gray-200);
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+}
+
+.content-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-purple), var(--accent-pink));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.content-card:hover::before {
+    transform: scaleX(1);
 }
 
 .content-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-hover);
-    border-color: var(--primary-color);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--gray-300);
 }
 
 .card-icon {
     font-size: 3.5rem;
-    padding: 2rem 2rem 1rem;
-    background: linear-gradient(135deg, var(--light-gray) 0%, white 100%);
+    padding: 2.5rem 2rem 1.5rem;
+    background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
     text-align: center;
 }
 
 .content-card h3 {
-    font-size: 1.35rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     color: var(--dark-color);
     font-weight: 700;
     padding: 0 2rem;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
 }
 
 .content-card p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
     padding: 0 2rem;
+    font-size: 0.9375rem;
 }
 
 .card-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
     transition: var(--transition);
-    padding: 1rem 2rem;
-    display: block;
-    background: var(--light-gray);
-    border-top: 1px solid var(--border-color);
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    padding: 1.25rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gray-50);
+    border-top: 1px solid var(--gray-200);
+    font-size: 0.9375rem;
+}
+
+.card-link::after {
+    content: '→';
+    transition: var(--transition);
 }
 
 .card-link:hover {
     background: var(--primary-color);
     color: white;
+}
+
+.card-link:hover::after {
+    transform: translateX(5px);
 }
 
 /* ===================================
@@ -327,22 +454,22 @@ header {
 
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2rem;
 }
 
 .video-card {
     background: var(--card-bg);
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-sm);
     transition: var(--transition);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--gray-200);
 }
 
 .video-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-hover);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
     border-color: var(--primary-color);
 }
 
@@ -363,88 +490,118 @@ header {
 }
 
 .video-card h3 {
-    padding: 1rem 1.5rem 0.5rem;
-    font-size: 1.1rem;
+    padding: 1.25rem 1.5rem 0.75rem;
+    font-size: 1.125rem;
     color: var(--dark-color);
     font-weight: 700;
+    letter-spacing: -0.3px;
+    line-height: 1.4;
 }
 
 .video-card p {
     padding: 0 1.5rem 1.5rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 0.9375rem;
 }
 
 /* ===================================
-   Blog Grid - Reddit-style Cards
+   Blog Grid - Modern Card Layout
    =================================== */
 
 .blog-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2rem;
 }
 
 .blog-card {
     background: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
     transition: var(--transition);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--gray-200);
     border-left: 4px solid var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-color), var(--accent-purple));
+    transform: scaleY(1);
+    transition: var(--transition);
 }
 
 .blog-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-hover);
-    border-left-color: var(--secondary-color);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-left-color: var(--accent-purple);
 }
 
 .blog-date {
     color: var(--primary-color);
-    font-weight: 700;
-    font-size: 0.75rem;
-    margin-bottom: 0.75rem;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .blog-card h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
     color: var(--dark-color);
     line-height: 1.4;
     font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .blog-card p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
+    font-size: 0.9375rem;
 }
 
 .blog-meta {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    font-weight: 600;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    font-weight: 500;
 }
 
 .blog-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
     transition: var(--transition);
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-link::after {
+    content: '→';
+    transition: var(--transition);
 }
 
 .blog-link:hover {
-    color: var(--primary-color);
-    text-decoration: underline;
+    color: var(--accent-purple);
+    gap: 0.75rem;
+}
+
+.blog-link:hover::after {
+    transform: translateX(3px);
 }
 
 /* ===================================
@@ -453,35 +610,57 @@ header {
 
 .view-more {
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 
 /* ===================================
-   Newsletter Section
+   Newsletter Section - Modern Gradient
    =================================== */
 
 .newsletter-section {
-    background: linear-gradient(135deg, var(--dark-color) 0%, #2d2d2e 100%);
+    background: linear-gradient(135deg, var(--dark-color) 0%, var(--gray-900) 100%);
     color: white;
-    padding: 3rem 0;
+    padding: 5rem 0;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
+}
+
+.newsletter-section .container {
+    position: relative;
+    z-index: 1;
 }
 
 .newsletter-section h2 {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
     font-weight: 800;
+    letter-spacing: -1px;
 }
 
 .newsletter-section p {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     opacity: 0.9;
-    font-size: 1rem;
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .newsletter-form {
     display: flex;
-    gap: 0.75rem;
+    gap: 1rem;
     max-width: 600px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -491,53 +670,67 @@ header {
 .newsletter-form input {
     flex: 1;
     min-width: 280px;
-    padding: 0.875rem 1.25rem;
-    border-radius: 9999px;
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-full);
     border: 2px solid transparent;
-    font-size: 14px;
+    font-size: 1rem;
     transition: var(--transition);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.newsletter-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .newsletter-form input:focus {
     outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.2);
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .newsletter-form button {
-    padding: 0.875rem 2.5rem;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-purple));
+    box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.4);
 }
 
 /* ===================================
-   Footer - Modern Design
+   Footer - Modern SaaS Design
    =================================== */
 
 footer {
     background: var(--dark-color);
     color: white;
-    padding: 2.5rem 0 1rem;
+    padding: 3.5rem 0 1.5rem;
 }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 .footer-section h3,
 .footer-section h4 {
-    margin-bottom: 1rem;
-    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-light), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.3px;
 }
 
 .footer-section p {
-    margin-bottom: 1rem;
-    color: #d1d5db;
-    line-height: 1.6;
-    font-size: 14px;
+    margin-bottom: 1.25rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+    font-size: 0.9375rem;
 }
 
 .footer-section ul {
@@ -545,54 +738,56 @@ footer {
 }
 
 .footer-section ul li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .footer-section a {
-    color: #d1d5db;
+    color: var(--gray-300);
     text-decoration: none;
     transition: var(--transition);
-    font-size: 14px;
+    font-size: 0.9375rem;
+    display: inline-block;
 }
 
 .footer-section a:hover {
-    color: var(--primary-color);
-    padding-left: 4px;
+    color: var(--primary-light);
+    transform: translateX(5px);
 }
 
 .social-links {
     display: flex;
-    gap: 0.75rem;
-    margin-top: 1rem;
+    gap: 1rem;
+    margin-top: 1.25rem;
     flex-wrap: wrap;
 }
 
 .social-links a {
-    background: #374151;
-    padding: 0.5rem 1rem;
-    border-radius: 9999px;
+    background: var(--gray-800);
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius-full);
     transition: var(--transition);
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.875rem;
+    transform: translateX(0);
 }
 
 .social-links a:hover {
-    background: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-purple));
     color: white;
-    transform: translateY(-2px);
-    padding-left: 1rem;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid #374151;
-    color: #9ca3af;
-    font-size: 13px;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--gray-800);
+    color: var(--gray-600);
+    font-size: 0.875rem;
 }
 
 /* ===================================
-   Responsive Design
+   Responsive Design - Mobile First
    =================================== */
 
 @media (max-width: 768px) {
@@ -605,12 +800,13 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background: white;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(10px);
         flex-direction: column;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
         box-shadow: var(--shadow-lg);
         display: none;
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid var(--gray-200);
     }
 
     .nav-menu.active {
@@ -624,11 +820,64 @@ footer {
 
     .nav-menu a {
         display: block;
-        padding: 0.75rem 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .hero {
+        padding: 4rem 0 5rem;
     }
 
     .hero h1 {
+        font-size: 2.25rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+
+    .section-title {
         font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .section-title::after {
+        width: 60px;
+    }
+
+    .content-grid,
+    .video-grid,
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+    }
+
+    .featured-section,
+    .videos-section,
+    .blog-section {
+        padding: 3.5rem 0;
+    }
+
+    .newsletter-section {
+        padding: 3.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 3rem 0 4rem;
+    }
+
+    .hero h1 {
+        font-size: 1.875rem;
+        letter-spacing: -1px;
     }
 
     .hero-subtitle {
@@ -639,51 +888,42 @@ footer {
         font-size: 1.75rem;
     }
 
-    .content-grid,
-    .video-grid,
-    .blog-grid {
-        grid-template-columns: 1fr;
+    .logo h1 {
+        font-size: 1.25rem;
     }
 
-    .newsletter-form {
+    .container {
+        padding: 0 20px;
+    }
+
+    .content-card h3,
+    .blog-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        padding: 0.75rem 2rem;
+        font-size: 0.9375rem;
+    }
+
+    .cta-buttons {
         flex-direction: column;
+        width: 100%;
     }
 
-    .newsletter-form input {
+    .cta-buttons .btn {
         width: 100%;
     }
 }
 
-@media (max-width: 480px) {
-    .hero {
-        padding: 2.5rem 0;
-    }
-
-    .hero h1 {
-        font-size: 1.75rem;
-    }
-
-    .section-title {
-        font-size: 1.5rem;
-    }
-
-    .logo h1 {
-        font-size: 1.35rem;
-    }
-
-    .container {
-        padding: 0 16px;
-    }
-}
-
 /* ===================================
-   Smooth Animations
+   Smooth Animations & Micro-Interactions
    =================================== */
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
@@ -691,43 +931,116 @@ footer {
     }
 }
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+/* Apply animations to elements */
 .content-card,
 .video-card,
 .blog-card {
-    animation: fadeIn 0.5s ease-out;
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
 }
 
 /* Stagger animation for cards */
-.content-card:nth-child(1) { animation-delay: 0.1s; }
-.content-card:nth-child(2) { animation-delay: 0.2s; }
-.content-card:nth-child(3) { animation-delay: 0.3s; }
-.content-card:nth-child(4) { animation-delay: 0.4s; }
-.content-card:nth-child(5) { animation-delay: 0.5s; }
-.content-card:nth-child(6) { animation-delay: 0.6s; }
+.content-card:nth-child(1),
+.video-card:nth-child(1),
+.blog-card:nth-child(1) { animation-delay: 0.1s; }
+.content-card:nth-child(2),
+.video-card:nth-child(2),
+.blog-card:nth-child(2) { animation-delay: 0.2s; }
+.content-card:nth-child(3),
+.video-card:nth-child(3),
+.blog-card:nth-child(3) { animation-delay: 0.3s; }
+.content-card:nth-child(4),
+.video-card:nth-child(4),
+.blog-card:nth-child(4) { animation-delay: 0.4s; }
+.content-card:nth-child(5),
+.video-card:nth-child(5),
+.blog-card:nth-child(5) { animation-delay: 0.5s; }
+.content-card:nth-child(6),
+.video-card:nth-child(6),
+.blog-card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Hero animation */
+.hero h1 {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards;
+}
+
+.hero-subtitle {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.4s backwards;
+}
+
+.cta-buttons {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.6s backwards;
+}
+
+.section-title {
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
 
 /* ===================================
-   Scrollbar Styling (Reddit-like)
+   Scrollbar Styling - Modern
    =================================== */
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 14px;
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--bg-color);
+    background: var(--gray-100);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 6px;
+    background: var(--gray-400);
+    border-radius: 10px;
+    border: 3px solid var(--gray-100);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-color);
+    background: linear-gradient(180deg, var(--primary-color), var(--accent-purple));
 }
 
 /* ===================================
-   Selection Color
+   Selection Color - Brand Colors
    =================================== */
 
 ::selection {
@@ -738,4 +1051,39 @@ footer {
 ::-moz-selection {
     background: var(--primary-color);
     color: white;
+}
+
+/* ===================================
+   Utility Classes
+   =================================== */
+
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
 }

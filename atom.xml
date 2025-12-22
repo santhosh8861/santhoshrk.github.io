@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>TechPlayLab - Tech, Videos & Blogs</title>
+  <title>TechPlayLab - Tech, Videos &amp; Blogs</title>
   <link href="https://santhosh8861.github.io/santhoshrk.github.io/"/>
   <link rel="self" href="https://santhosh8861.github.io/santhoshrk.github.io/atom.xml"/>
   <updated>2025-12-22T00:00:00Z</updated>
@@ -13,11 +13,11 @@
   <icon>https://santhosh8861.github.io/santhoshrk.github.io/images/logo.png</icon>
 
   <entry>
-    <title>Explore 6 YouTube Channels - Tech, Travel, Cricket & More</title>
+    <title>Explore 6 YouTube Channels - Tech, Travel, Cricket &amp; More</title>
     <link href="https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html"/>
     <id>https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html</id>
     <updated>2025-12-22T00:00:00Z</updated>
-    <summary>Discover our collection of YouTube channels featuring ThrillChill Travel Vlogs (95K+ subscribers), Tech Tinker Lab, Cricket Training Academy, Freestyle Legends, Networking Basics Tutorials, and Tech & Cool Videos. Watch engaging content across travel, technology, sports, and entertainment.</summary>
+    <summary>Discover our collection of YouTube channels featuring ThrillChill Travel Vlogs (95K+ subscribers), Tech Tinker Lab, Cricket Training Academy, Freestyle Legends, Networking Basics Tutorials, and Tech &amp; Cool Videos. Watch engaging content across travel, technology, sports, and entertainment.</summary>
     <category term="YouTube"/>
     <category term="Videos"/>
     <content type="html"><![CDATA[
@@ -27,16 +27,16 @@
         <li><strong>ThrillChill Travel Vlogs</strong> - 95K+ subscribers, 150+ travel videos</li>
         <li><strong>Tech Tinker Lab</strong> - 42K subscribers, technology experiments</li>
         <li><strong>Cricket Training Academy</strong> - 38K subscribers, professional coaching</li>
-        <li><strong>Freestyle Legends</strong> - 28K subscribers, sports & lifestyle</li>
+        <li><strong>Freestyle Legends</strong> - 28K subscribers, sports &amp; lifestyle</li>
         <li><strong>Networking Basics</strong> - 15K subscribers, IT tutorials</li>
-        <li><strong>Tech & Cool Videos</strong> - 12K subscribers, entertainment</li>
+        <li><strong>Tech &amp; Cool Videos</strong> - 12K subscribers, entertainment</li>
       </ul>
-      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html">View All Channels →</a></p>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html">View All Channels â†’</a></p>
     ]]></content>
   </entry>
 
   <entry>
-    <title>8 Blogger Channels - Programming, Tech Tips, Cooking & Lifestyle</title>
+    <title>8 Blogger Channels - Programming, Tech Tips, Cooking &amp; Lifestyle</title>
     <link href="https://santhosh8861.github.io/santhoshrk.github.io/blog.html"/>
     <id>https://santhosh8861.github.io/santhoshrk.github.io/blog.html</id>
     <updated>2025-12-21T00:00:00Z</updated>
@@ -48,16 +48,16 @@
       <h2>8 Specialized Blog Channels</h2>
       <p>Deep dive into multiple topics with 100+ articles:</p>
       <ul>
-        <li><strong>Daily Update</strong> - Tech news & tutorials</li>
+        <li><strong>Daily Update</strong> - Tech news &amp; tutorials</li>
         <li><strong>Python Programming</strong> - Daily coding lessons</li>
         <li><strong>Power of Java</strong> - Enterprise development</li>
-        <li><strong>Windows 8</strong> - OS tips & tricks</li>
+        <li><strong>Windows 8</strong> - OS tips &amp; tricks</li>
         <li><strong>Printer</strong> - Troubleshooting guides</li>
-        <li><strong>Cook Serve Eat Repeat</strong> - Recipes & culinary tips</li>
+        <li><strong>Cook Serve Eat Repeat</strong> - Recipes &amp; culinary tips</li>
         <li><strong>Chop Chop Cook</strong> - Quick meal ideas</li>
-        <li><strong>Fitness for Life</strong> - Health & wellness</li>
+        <li><strong>Fitness for Life</strong> - Health &amp; wellness</li>
       </ul>
-      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/blog.html">Explore All Blogs →</a></p>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/blog.html">Explore All Blogs â†’</a></p>
     ]]></content>
   </entry>
 
@@ -75,13 +75,13 @@
       <p>19 professional videos covering:</p>
       <ul>
         <li>Batting masterclasses from legends</li>
-        <li>Fast bowling techniques & variations</li>
+        <li>Fast bowling techniques &amp; variations</li>
         <li>Spin bowling tactics</li>
-        <li>Fielding drills & catching practice</li>
+        <li>Fielding drills &amp; catching practice</li>
         <li>Fitness routines for cricketers</li>
-        <li>Match strategies & mental preparation</li>
+        <li>Match strategies &amp; mental preparation</li>
       </ul>
-      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/cricket-videos.html">Watch Training Videos →</a></p>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/cricket-videos.html">Watch Training Videos â†’</a></p>
     ]]></content>
   </entry>
 
@@ -106,7 +106,7 @@
   </entry>
 
   <entry>
-    <title>ThrillChill Travel Vlogs - Adventure & Exploration</title>
+    <title>ThrillChill Travel Vlogs - Adventure &amp; Exploration</title>
     <link href="https://www.youtube.com/@ThrillChillTravel"/>
     <id>https://www.youtube.com/@ThrillChillTravel</id>
     <updated>2025-12-19T00:00:00Z</updated>
@@ -119,18 +119,18 @@
       <p>Experience the world through our lens:</p>
       <ul>
         <li>150+ travel vlogs from 30+ countries</li>
-        <li>Exotic destinations & hidden gems</li>
-        <li>Local cuisine & food adventures</li>
-        <li>Adventure sports & outdoor activities</li>
-        <li>Cultural immersion & local experiences</li>
-        <li>Travel tips & budget guides</li>
+        <li>Exotic destinations &amp; hidden gems</li>
+        <li>Local cuisine &amp; food adventures</li>
+        <li>Adventure sports &amp; outdoor activities</li>
+        <li>Cultural immersion &amp; local experiences</li>
+        <li>Travel tips &amp; budget guides</li>
       </ul>
-      <p><a href="https://www.youtube.com/@ThrillChillTravel">Subscribe Now →</a></p>
+      <p><a href="https://www.youtube.com/@ThrillChillTravel">Subscribe Now â†’</a></p>
     ]]></content>
   </entry>
 
   <entry>
-    <title>Python Programming Blog - Daily Tutorials & Tips</title>
+    <title>Python Programming Blog - Daily Tutorials &amp; Tips</title>
     <link href="https://python-rksanthosh.blogspot.com/"/>
     <id>https://python-rksanthosh.blogspot.com/</id>
     <updated>2025-12-18T00:00:00Z</updated>
@@ -142,19 +142,19 @@
       <h2>Master Python Programming</h2>
       <p>Comprehensive Python tutorials for all levels:</p>
       <ul>
-        <li>Fundamentals & data structures</li>
-        <li>Django & Flask web development</li>
-        <li>Data science with pandas & NumPy</li>
-        <li>Automation & scripting</li>
-        <li>API development & testing</li>
-        <li>Best practices & clean code</li>
+        <li>Fundamentals &amp; data structures</li>
+        <li>Django &amp; Flask web development</li>
+        <li>Data science with pandas &amp; NumPy</li>
+        <li>Automation &amp; scripting</li>
+        <li>API development &amp; testing</li>
+        <li>Best practices &amp; clean code</li>
       </ul>
-      <p><a href="https://python-rksanthosh.blogspot.com/">Start Learning →</a></p>
+      <p><a href="https://python-rksanthosh.blogspot.com/">Start Learning â†’</a></p>
     ]]></content>
   </entry>
 
   <entry>
-    <title>Tech Tinker Lab - Technology Experiments & Reviews</title>
+    <title>Tech Tinker Lab - Technology Experiments &amp; Reviews</title>
     <link href="https://www.youtube.com/@TechTinkerLab"/>
     <id>https://www.youtube.com/@TechTinkerLab</id>
     <updated>2025-12-17T00:00:00Z</updated>
@@ -163,17 +163,17 @@
     <category term="YouTube"/>
     <category term="Reviews"/>
     <content type="html"><![CDATA[
-      <h2>Technology Experiments & Reviews</h2>
+      <h2>Technology Experiments &amp; Reviews</h2>
       <p>Hands-on tech content for enthusiasts:</p>
       <ul>
-        <li>Gadget reviews & comparisons</li>
+        <li>Gadget reviews &amp; comparisons</li>
         <li>DIY electronics projects</li>
         <li>Programming tutorials</li>
-        <li>Tech news & analysis</li>
+        <li>Tech news &amp; analysis</li>
         <li>Product unboxings</li>
-        <li>Tech tips & tricks</li>
+        <li>Tech tips &amp; tricks</li>
       </ul>
-      <p><a href="https://www.youtube.com/@TechTinkerLab">Watch Now →</a></p>
+      <p><a href="https://www.youtube.com/@TechTinkerLab">Watch Now â†’</a></p>
     ]]></content>
   </entry>
 
@@ -210,14 +210,14 @@
       <h2>Enterprise Java Development</h2>
       <p>Professional Java programming guides:</p>
       <ul>
-        <li>Spring Framework & Spring Boot</li>
-        <li>Hibernate ORM & JPA</li>
+        <li>Spring Framework &amp; Spring Boot</li>
+        <li>Hibernate ORM &amp; JPA</li>
         <li>Microservices architecture</li>
-        <li>Design patterns & best practices</li>
+        <li>Design patterns &amp; best practices</li>
         <li>RESTful API development</li>
-        <li>Testing & deployment strategies</li>
+        <li>Testing &amp; deployment strategies</li>
       </ul>
-      <p><a href="https://power-of-java.blogspot.com/">Learn Java →</a></p>
+      <p><a href="https://power-of-java.blogspot.com/">Learn Java â†’</a></p>
     ]]></content>
   </entry>
 
@@ -234,14 +234,14 @@
       <h2>Legitimate Online Income Strategies</h2>
       <p>Build sustainable income streams:</p>
       <ul>
-        <li>Content creation & monetization</li>
+        <li>Content creation &amp; monetization</li>
         <li>YouTube AdSense strategies</li>
         <li>Affiliate marketing programs</li>
         <li>Freelancing platforms</li>
         <li>Digital product creation</li>
         <li>Passive income systems</li>
       </ul>
-      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/money-online.html">Start Earning →</a></p>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/money-online.html">Start Earning â†’</a></p>
     ]]></content>
   </entry>
 
@@ -259,13 +259,13 @@
       <p>Structured training programs:</p>
       <ul>
         <li>Batting technique tutorials</li>
-        <li>Bowling mechanics & variations</li>
-        <li>Fielding drills & exercises</li>
-        <li>Match strategy & tactics</li>
-        <li>Fitness & conditioning</li>
+        <li>Bowling mechanics &amp; variations</li>
+        <li>Fielding drills &amp; exercises</li>
+        <li>Match strategy &amp; tactics</li>
+        <li>Fitness &amp; conditioning</li>
         <li>Mental preparation tips</li>
       </ul>
-      <p><a href="https://www.youtube.com/@CricketTraining">Subscribe & Learn →</a></p>
+      <p><a href="https://www.youtube.com/@CricketTraining">Subscribe &amp; Learn â†’</a></p>
     ]]></content>
   </entry>
 
@@ -299,17 +299,17 @@
     <category term="Recipes"/>
     <category term="Food"/>
     <content type="html"><![CDATA[
-      <h2>Culinary Adventures & Recipes</h2>
+      <h2>Culinary Adventures &amp; Recipes</h2>
       <p>Delicious recipes for every occasion:</p>
       <ul>
         <li>Quick weeknight dinners</li>
         <li>Weekend feast recipes</li>
         <li>International cuisines</li>
-        <li>Baking & desserts</li>
+        <li>Baking &amp; desserts</li>
         <li>Healthy meal prep</li>
-        <li>Cooking techniques & tips</li>
+        <li>Cooking techniques &amp; tips</li>
       </ul>
-      <p><a href="https://cook-serve-eat-repeat.blogspot.com/">Get Cooking →</a></p>
+      <p><a href="https://cook-serve-eat-repeat.blogspot.com/">Get Cooking â†’</a></p>
     ]]></content>
   </entry>
 
@@ -326,19 +326,19 @@
       <h2>AI-Powered Coding Assistant</h2>
       <p>Maximize productivity with GitHub Copilot:</p>
       <ul>
-        <li>Setup & installation guide</li>
+        <li>Setup &amp; installation guide</li>
         <li>Best practices for AI coding</li>
         <li>Multi-language support</li>
-        <li>Productivity tips & tricks</li>
+        <li>Productivity tips &amp; tricks</li>
         <li>Advanced features</li>
         <li>Real-world examples</li>
       </ul>
-      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/github-copilot.html">Learn More →</a></p>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/github-copilot.html">Learn More â†’</a></p>
     ]]></content>
   </entry>
 
   <entry>
-    <title>Fitness for Life - Health & Wellness Blog</title>
+    <title>Fitness for Life - Health &amp; Wellness Blog</title>
     <link href="https://fitness-for-life-rk.blogspot.com/"/>
     <id>https://fitness-for-life-rk.blogspot.com/</id>
     <updated>2025-12-11T00:00:00Z</updated>
@@ -347,18 +347,19 @@
     <category term="Health"/>
     <category term="Lifestyle"/>
     <content type="html"><![CDATA[
-      <h2>Health & Wellness Guides</h2>
+      <h2>Health &amp; Wellness Guides</h2>
       <p>Transform your lifestyle:</p>
       <ul>
         <li>Strength training programs</li>
-        <li>Cardio & HIIT workouts</li>
-        <li>Yoga & flexibility exercises</li>
-        <li>Nutrition & meal planning</li>
+        <li>Cardio &amp; HIIT workouts</li>
+        <li>Yoga &amp; flexibility exercises</li>
+        <li>Nutrition &amp; meal planning</li>
         <li>Weight loss strategies</li>
         <li>Sustainable lifestyle habits</li>
       </ul>
-      <p><a href="https://fitness-for-life-rk.blogspot.com/">Start Your Journey →</a></p>
+      <p><a href="https://fitness-for-life-rk.blogspot.com/">Start Your Journey â†’</a></p>
     ]]></content>
   </entry>
 
 </feed>
+

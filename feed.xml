@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TechPlayLab - Tech, Videos & Blogs</title>
+    <title>TechPlayLab - Tech, Videos &amp; Blogs</title>
     <link>https://santhosh8861.github.io/santhoshrk.github.io/</link>
     <description>Your hub for technology tutorials, YouTube channels, cricket videos, and insightful blogs covering programming, tech tips, cooking, and fitness.</description>
     <language>en-us</language>
@@ -14,17 +14,17 @@
     </image>
 
     <item>
-      <title>Explore 6 YouTube Channels - Tech, Travel, Cricket & More</title>
+      <title>Explore 6 YouTube Channels - Tech, Travel, Cricket &amp; More</title>
       <link>https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html</link>
       <guid>https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html</guid>
       <pubDate>Sun, 22 Dec 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[Discover our collection of YouTube channels featuring ThrillChill Travel Vlogs (95K+ subscribers), Tech Tinker Lab, Cricket Training Academy, Freestyle Legends, Networking Basics Tutorials, and Tech & Cool Videos. Watch engaging content across travel, technology, sports, and entertainment.]]></description>
+      <description><![CDATA[Discover our collection of YouTube channels featuring ThrillChill Travel Vlogs (95K+ subscribers), Tech Tinker Lab, Cricket Training Academy, Freestyle Legends, Networking Basics Tutorials, and Tech &amp; Cool Videos. Watch engaging content across travel, technology, sports, and entertainment.]]></description>
       <category>YouTube</category>
       <category>Videos</category>
     </item>
 
     <item>
-      <title>8 Blogger Channels - Programming, Tech Tips, Cooking & Lifestyle</title>
+      <title>8 Blogger Channels - Programming, Tech Tips, Cooking &amp; Lifestyle</title>
       <link>https://santhosh8861.github.io/santhoshrk.github.io/blog.html</link>
       <guid>https://santhosh8861.github.io/santhoshrk.github.io/blog.html</guid>
       <pubDate>Sat, 21 Dec 2025 00:00:00 GMT</pubDate>
@@ -66,7 +66,7 @@
     </item>
 
     <item>
-      <title>ThrillChill Travel Vlogs - Adventure & Exploration</title>
+      <title>ThrillChill Travel Vlogs - Adventure &amp; Exploration</title>
       <link>https://www.youtube.com/@ThrillChillTravel</link>
       <guid>https://www.youtube.com/@ThrillChillTravel</guid>
       <pubDate>Thu, 19 Dec 2025 00:00:00 GMT</pubDate>
@@ -77,7 +77,7 @@
     </item>
 
     <item>
-      <title>Python Programming Blog - Daily Tutorials & Tips</title>
+      <title>Python Programming Blog - Daily Tutorials &amp; Tips</title>
       <link>https://python-rksanthosh.blogspot.com/</link>
       <guid>https://python-rksanthosh.blogspot.com/</guid>
       <pubDate>Wed, 18 Dec 2025 00:00:00 GMT</pubDate>
@@ -88,7 +88,7 @@
     </item>
 
     <item>
-      <title>Tech Tinker Lab - Technology Experiments & Reviews</title>
+      <title>Tech Tinker Lab - Technology Experiments &amp; Reviews</title>
       <link>https://www.youtube.com/@TechTinkerLab</link>
       <guid>https://www.youtube.com/@TechTinkerLab</guid>
       <pubDate>Tue, 17 Dec 2025 00:00:00 GMT</pubDate>
@@ -194,7 +194,7 @@
     </item>
 
     <item>
-      <title>Fitness for Life - Health & Wellness Blog</title>
+      <title>Fitness for Life - Health &amp; Wellness Blog</title>
       <link>https://fitness-for-life-rk.blogspot.com/</link>
       <guid>https://fitness-for-life-rk.blogspot.com/</guid>
       <pubDate>Wed, 11 Dec 2025 00:00:00 GMT</pubDate>
@@ -206,3 +206,4 @@
 
   </channel>
 </rss>
+

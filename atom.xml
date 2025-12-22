@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TechPlayLab - Tech, Videos & Blogs</title>
+  <link href="https://santhosh8861.github.io/santhoshrk.github.io/"/>
+  <link rel="self" href="https://santhosh8861.github.io/santhoshrk.github.io/atom.xml"/>
+  <updated>2025-12-22T00:00:00Z</updated>
+  <id>https://santhosh8861.github.io/santhoshrk.github.io/</id>
+  <subtitle>Your hub for technology tutorials, YouTube channels, cricket videos, and insightful blogs covering programming, tech tips, cooking, and fitness.</subtitle>
+  <author>
+    <name>TechPlayLab</name>
+    <uri>https://santhosh8861.github.io/santhoshrk.github.io/</uri>
+  </author>
+  <icon>https://santhosh8861.github.io/santhoshrk.github.io/images/logo.png</icon>
+
+  <entry>
+    <title>Explore 6 YouTube Channels - Tech, Travel, Cricket & More</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html</id>
+    <updated>2025-12-22T00:00:00Z</updated>
+    <summary>Discover our collection of YouTube channels featuring ThrillChill Travel Vlogs (95K+ subscribers), Tech Tinker Lab, Cricket Training Academy, Freestyle Legends, Networking Basics Tutorials, and Tech & Cool Videos. Watch engaging content across travel, technology, sports, and entertainment.</summary>
+    <category term="YouTube"/>
+    <category term="Videos"/>
+    <content type="html"><![CDATA[
+      <h2>6 Curated YouTube Channels</h2>
+      <p>Explore diverse content across multiple niches:</p>
+      <ul>
+        <li><strong>ThrillChill Travel Vlogs</strong> - 95K+ subscribers, 150+ travel videos</li>
+        <li><strong>Tech Tinker Lab</strong> - 42K subscribers, technology experiments</li>
+        <li><strong>Cricket Training Academy</strong> - 38K subscribers, professional coaching</li>
+        <li><strong>Freestyle Legends</strong> - 28K subscribers, sports & lifestyle</li>
+        <li><strong>Networking Basics</strong> - 15K subscribers, IT tutorials</li>
+        <li><strong>Tech & Cool Videos</strong> - 12K subscribers, entertainment</li>
+      </ul>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/youtube-channels.html">View All Channels →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>8 Blogger Channels - Programming, Tech Tips, Cooking & Lifestyle</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/blog.html"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/blog.html</id>
+    <updated>2025-12-21T00:00:00Z</updated>
+    <summary>Access 8 curated Blogger channels covering technology, Python programming, Java development, Windows tips, printer troubleshooting, cooking recipes, and fitness guides. Over 100+ articles available across tech tutorials, programming guides, and lifestyle content.</summary>
+    <category term="Blogs"/>
+    <category term="Programming"/>
+    <category term="Technology"/>
+    <content type="html"><![CDATA[
+      <h2>8 Specialized Blog Channels</h2>
+      <p>Deep dive into multiple topics with 100+ articles:</p>
+      <ul>
+        <li><strong>Daily Update</strong> - Tech news & tutorials</li>
+        <li><strong>Python Programming</strong> - Daily coding lessons</li>
+        <li><strong>Power of Java</strong> - Enterprise development</li>
+        <li><strong>Windows 8</strong> - OS tips & tricks</li>
+        <li><strong>Printer</strong> - Troubleshooting guides</li>
+        <li><strong>Cook Serve Eat Repeat</strong> - Recipes & culinary tips</li>
+        <li><strong>Chop Chop Cook</strong> - Quick meal ideas</li>
+        <li><strong>Fitness for Life</strong> - Health & wellness</li>
+      </ul>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/blog.html">Explore All Blogs →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>19 Professional Cricket Training Videos</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/cricket-videos.html"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/cricket-videos.html</id>
+    <updated>2025-12-20T00:00:00Z</updated>
+    <summary>Master cricket with 19 comprehensive training videos covering batting techniques, bowling strategies, fielding drills, fitness routines, and match analysis. Learn from professional coaches including Rahul Dravid's masterclass, MS Dhoni's finishing skills, and advanced shot-making techniques.</summary>
+    <category term="Cricket"/>
+    <category term="Sports"/>
+    <category term="Training"/>
+    <content type="html"><![CDATA[
+      <h2>Complete Cricket Training Library</h2>
+      <p>19 professional videos covering:</p>
+      <ul>
+        <li>Batting masterclasses from legends</li>
+        <li>Fast bowling techniques & variations</li>
+        <li>Spin bowling tactics</li>
+        <li>Fielding drills & catching practice</li>
+        <li>Fitness routines for cricketers</li>
+        <li>Match strategies & mental preparation</li>
+      </ul>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/cricket-videos.html">Watch Training Videos →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Advertisement</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/ad-1</id>
+    <updated>2025-12-22T12:00:00Z</updated>
+    <content type="html"><![CDATA[
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4375419132414079"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-4375419132414079"
+     data-ad-slot="3228346217"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>ThrillChill Travel Vlogs - Adventure & Exploration</title>
+    <link href="https://www.youtube.com/@ThrillChillTravel"/>
+    <id>https://www.youtube.com/@ThrillChillTravel</id>
+    <updated>2025-12-19T00:00:00Z</updated>
+    <summary>Join us on epic adventures around the world! Featured channel with 95K+ subscribers and 150+ travel vlogs. Explore exotic destinations, local cuisines, adventure sports, and cultural experiences. New videos every week featuring breathtaking landscapes and travel tips.</summary>
+    <category term="Travel"/>
+    <category term="YouTube"/>
+    <category term="Adventure"/>
+    <content type="html"><![CDATA[
+      <h2>Most Popular Channel - 95K+ Subscribers</h2>
+      <p>Experience the world through our lens:</p>
+      <ul>
+        <li>150+ travel vlogs from 30+ countries</li>
+        <li>Exotic destinations & hidden gems</li>
+        <li>Local cuisine & food adventures</li>
+        <li>Adventure sports & outdoor activities</li>
+        <li>Cultural immersion & local experiences</li>
+        <li>Travel tips & budget guides</li>
+      </ul>
+      <p><a href="https://www.youtube.com/@ThrillChillTravel">Subscribe Now →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Python Programming Blog - Daily Tutorials & Tips</title>
+    <link href="https://python-rksanthosh.blogspot.com/"/>
+    <id>https://python-rksanthosh.blogspot.com/</id>
+    <updated>2025-12-18T00:00:00Z</updated>
+    <summary>Learn Python programming from basics to advanced concepts. Daily tutorials covering data structures, algorithms, web development with Django and Flask, data science with pandas and NumPy, automation scripts, and best practices for clean code.</summary>
+    <category term="Programming"/>
+    <category term="Python"/>
+    <category term="Tutorial"/>
+    <content type="html"><![CDATA[
+      <h2>Master Python Programming</h2>
+      <p>Comprehensive Python tutorials for all levels:</p>
+      <ul>
+        <li>Fundamentals & data structures</li>
+        <li>Django & Flask web development</li>
+        <li>Data science with pandas & NumPy</li>
+        <li>Automation & scripting</li>
+        <li>API development & testing</li>
+        <li>Best practices & clean code</li>
+      </ul>
+      <p><a href="https://python-rksanthosh.blogspot.com/">Start Learning →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Tech Tinker Lab - Technology Experiments & Reviews</title>
+    <link href="https://www.youtube.com/@TechTinkerLab"/>
+    <id>https://www.youtube.com/@TechTinkerLab</id>
+    <updated>2025-12-17T00:00:00Z</updated>
+    <summary>Dive into the world of technology with hands-on experiments, gadget reviews, coding tutorials, and tech project builds. 42K+ subscribers learning about electronics, programming, DIY tech projects, and the latest innovations in the tech industry.</summary>
+    <category term="Technology"/>
+    <category term="YouTube"/>
+    <category term="Reviews"/>
+    <content type="html"><![CDATA[
+      <h2>Technology Experiments & Reviews</h2>
+      <p>Hands-on tech content for enthusiasts:</p>
+      <ul>
+        <li>Gadget reviews & comparisons</li>
+        <li>DIY electronics projects</li>
+        <li>Programming tutorials</li>
+        <li>Tech news & analysis</li>
+        <li>Product unboxings</li>
+        <li>Tech tips & tricks</li>
+      </ul>
+      <p><a href="https://www.youtube.com/@TechTinkerLab">Watch Now →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Advertisement</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/ad-2</id>
+    <updated>2025-12-22T12:00:00Z</updated>
+    <content type="html"><![CDATA[
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4375419132414079"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-4375419132414079"
+     data-ad-slot="3228346217"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Power of Java - Enterprise Development Blog</title>
+    <link href="https://power-of-java.blogspot.com/"/>
+    <id>https://power-of-java.blogspot.com/</id>
+    <updated>2025-12-16T00:00:00Z</updated>
+    <summary>Master Java programming with comprehensive guides on Spring Framework, Hibernate ORM, microservices architecture, design patterns, and enterprise application development. Learn best practices for building scalable, maintainable Java applications.</summary>
+    <category term="Programming"/>
+    <category term="Java"/>
+    <category term="Enterprise"/>
+    <content type="html"><![CDATA[
+      <h2>Enterprise Java Development</h2>
+      <p>Professional Java programming guides:</p>
+      <ul>
+        <li>Spring Framework & Spring Boot</li>
+        <li>Hibernate ORM & JPA</li>
+        <li>Microservices architecture</li>
+        <li>Design patterns & best practices</li>
+        <li>RESTful API development</li>
+        <li>Testing & deployment strategies</li>
+      </ul>
+      <p><a href="https://power-of-java.blogspot.com/">Learn Java →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Make Money Online - Legitimate Income Strategies</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/money-online.html"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/money-online.html</id>
+    <updated>2025-12-15T00:00:00Z</updated>
+    <summary>Discover proven strategies to earn money online through content creation, YouTube monetization, Google AdSense, affiliate marketing, freelancing, and digital products. Learn step-by-step guides for building passive income streams and growing your online business.</summary>
+    <category term="Business"/>
+    <category term="Income"/>
+    <category term="Guide"/>
+    <content type="html"><![CDATA[
+      <h2>Legitimate Online Income Strategies</h2>
+      <p>Build sustainable income streams:</p>
+      <ul>
+        <li>Content creation & monetization</li>
+        <li>YouTube AdSense strategies</li>
+        <li>Affiliate marketing programs</li>
+        <li>Freelancing platforms</li>
+        <li>Digital product creation</li>
+        <li>Passive income systems</li>
+      </ul>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/money-online.html">Start Earning →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Cricket Training Academy - Professional Coaching</title>
+    <link href="https://www.youtube.com/@CricketTraining"/>
+    <id>https://www.youtube.com/@CricketTraining</id>
+    <updated>2025-12-14T00:00:00Z</updated>
+    <summary>Professional cricket coaching with 38K+ subscribers. Master batting, bowling, and fielding techniques through expert tutorials, drills, and match strategies. Learn from experienced coaches and improve your game with structured training programs.</summary>
+    <category term="Cricket"/>
+    <category term="Sports"/>
+    <category term="YouTube"/>
+    <content type="html"><![CDATA[
+      <h2>Professional Cricket Coaching</h2>
+      <p>Structured training programs:</p>
+      <ul>
+        <li>Batting technique tutorials</li>
+        <li>Bowling mechanics & variations</li>
+        <li>Fielding drills & exercises</li>
+        <li>Match strategy & tactics</li>
+        <li>Fitness & conditioning</li>
+        <li>Mental preparation tips</li>
+      </ul>
+      <p><a href="https://www.youtube.com/@CricketTraining">Subscribe & Learn →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Advertisement</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/ad-3</id>
+    <updated>2025-12-22T12:00:00Z</updated>
+    <content type="html"><![CDATA[
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4375419132414079"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-4375419132414079"
+     data-ad-slot="3228346217"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Cook Serve Eat Repeat - Culinary Adventures</title>
+    <link href="https://cook-serve-eat-repeat.blogspot.com/"/>
+    <id>https://cook-serve-eat-repeat.blogspot.com/</id>
+    <updated>2025-12-13T00:00:00Z</updated>
+    <summary>Explore delicious recipes, cooking tips, and culinary adventures. From quick weeknight dinners to elaborate weekend feasts, discover step-by-step recipes with photos, ingredient substitutions, and cooking techniques for home cooks of all skill levels.</summary>
+    <category term="Cooking"/>
+    <category term="Recipes"/>
+    <category term="Food"/>
+    <content type="html"><![CDATA[
+      <h2>Culinary Adventures & Recipes</h2>
+      <p>Delicious recipes for every occasion:</p>
+      <ul>
+        <li>Quick weeknight dinners</li>
+        <li>Weekend feast recipes</li>
+        <li>International cuisines</li>
+        <li>Baking & desserts</li>
+        <li>Healthy meal prep</li>
+        <li>Cooking techniques & tips</li>
+      </ul>
+      <p><a href="https://cook-serve-eat-repeat.blogspot.com/">Get Cooking →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>GitHub Copilot Guide - AI-Powered Coding Assistant</title>
+    <link href="https://santhosh8861.github.io/santhoshrk.github.io/github-copilot.html"/>
+    <id>https://santhosh8861.github.io/santhoshrk.github.io/github-copilot.html</id>
+    <updated>2025-12-12T00:00:00Z</updated>
+    <summary>Complete guide to GitHub Copilot, the AI-powered coding assistant. Learn how to boost productivity, write better code faster, and leverage AI suggestions for multiple programming languages. Includes setup instructions, best practices, and advanced tips.</summary>
+    <category term="AI"/>
+    <category term="Programming"/>
+    <category term="Tools"/>
+    <content type="html"><![CDATA[
+      <h2>AI-Powered Coding Assistant</h2>
+      <p>Maximize productivity with GitHub Copilot:</p>
+      <ul>
+        <li>Setup & installation guide</li>
+        <li>Best practices for AI coding</li>
+        <li>Multi-language support</li>
+        <li>Productivity tips & tricks</li>
+        <li>Advanced features</li>
+        <li>Real-world examples</li>
+      </ul>
+      <p><a href="https://santhosh8861.github.io/santhoshrk.github.io/github-copilot.html">Learn More →</a></p>
+    ]]></content>
+  </entry>
+
+  <entry>
+    <title>Fitness for Life - Health & Wellness Blog</title>
+    <link href="https://fitness-for-life-rk.blogspot.com/"/>
+    <id>https://fitness-for-life-rk.blogspot.com/</id>
+    <updated>2025-12-11T00:00:00Z</updated>
+    <summary>Transform your health with fitness routines, workout plans, nutrition guides, and wellness tips. Covering strength training, cardio exercises, yoga, meal planning, and sustainable lifestyle changes for long-term health and fitness goals.</summary>
+    <category term="Fitness"/>
+    <category term="Health"/>
+    <category term="Lifestyle"/>
+    <content type="html"><![CDATA[
+      <h2>Health & Wellness Guides</h2>
+      <p>Transform your lifestyle:</p>
+      <ul>
+        <li>Strength training programs</li>
+        <li>Cardio & HIIT workouts</li>
+        <li>Yoga & flexibility exercises</li>
+        <li>Nutrition & meal planning</li>
+        <li>Weight loss strategies</li>
+        <li>Sustainable lifestyle habits</li>
+      </ul>
+      <p><a href="https://fitness-for-life-rk.blogspot.com/">Start Your Journey →</a></p>
+    ]]></content>
+  </entry>
+
+</feed>
